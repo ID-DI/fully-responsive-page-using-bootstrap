@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, Bootstrap, SCSS" />
+    <meta name="author" content="ID_DI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bootstrap webpage</title>
+    <link rel="stylesheet" href="./assets/scss/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="56">
+                              <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand flex-grow-1" href="#">BLOGGER</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul  class="navbar-nav">
+          <li class="nav-item">
+            <a  class="nav-link active" data-scroll href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll href="#explore">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll href="#create">Create</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll href="#share">Share</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+                              <!-- NAVIGATION END -->
+
+                              <!-- BANNER -->
+
+    <div class="container-fluid bg-image" id="home">
+      <div class="row align-content-center vh-100 justify-content-center">
+        <div class="col-lg-5 d-none d-lg-block">
+          <h1 class="text-white h3 mb-3 font-weight-bold">
+            Build <span class="text-red">social profiles</span> and gain
+            revenue and <span class="text-red">profits</span>
+          </h1>
+          <ul class="pl-4 mb-0">
+            <li class="d-flex flex-row align-items-center mb-3 text-white">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-white text-info rounded p-1" ></i>
+              <p class="small m-0 pt-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea incidunt magnam, aspernatur id iure iusto fugit ullam, vel sed.</p>
+            </li>
+            <li class="d-flex flex-row align-items-center mb-3 text-white">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-white text-info rounded p-1" ></i>
+              <p class="small m-0 pt-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea incidunt magnam, aspernatur id iure iusto fugit ullam, vel sed.</p>
+            </li>
+            <li class="d-flex flex-row align-items-center mb-3 text-white">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-white text-info rounded p-1" ></i>
+              <p class="small m-0 pt-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea incidunt magnam, aspernatur id iure iusto fugit ullam, vel sed.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-10 col-lg-3 py-3 px-2 bg-indigo-op rounded">
+          <div class="container text-white text-center">
+            <h3 class="h5 text-white text-capitalize">sign up today</h3>
+            <p class=" small text-white">Please fill out this form to register</p>
+        <form action="/">
+          <input type="text" placeholder="Username" class="form-control form-group ">
+          <input type="email" placeholder="Email" class="form-control form-group">
+          <input type="password" placeholder="Password" class="form-control form-group">
+          <input type="password" placeholder="Confirm password" class="form-control form-group">
+          <button type="button" class="btn btn-indigo btn-block btn-outline-light form-control form-group">Submit</button>
+        </form>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+                              <!-- BANNER END-->
+                              
+ 
+                              <!-- EXPLORE-->
+    <div class=" container-fluid text-center py-5 bg-dark text-white scrollspy" id="explore">
+      <h2 class="h3 text-capitalize">explore</h2>
+      <p class="mb-0 mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti similique, iure dolorum placeat tempora laboriosam ipsa delectus non doloribus distinctio a necessitatibus consectetur, quas voluptatem expedita quod tempore minus atque fugiat labore sit aliquam voluptatibus! Cumque rerum placeat inventore eveniet.</p>
+      <button type="button" class="btn btn-dark btn-outline-light mt-3">Find Out More</button>
+    </div>
+
+    <div class="container-fluid bg-white py-5">
+      <div class="row">
+        <div class="col-10 col-lg-5 offset-1">
+          <img src="./images/explore-section11.jpg" class="mw-100 mb-3 rounded-circle" alt="Explore Nature">
+        </div>
+        <div class="col-10 offset-1 col-lg-5 offset-lg-0 my-auto">
+          <h2 class="h3 text-capitalize">explore & connect</h2>
+          <p class="mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti similique, iure dolorum placeat tempora laboriosam ipsa delectus non doloribus distinctio a necessitatibus consectetur.</p>
+          <ul class="pl-4 mb-2">
+            <li class="d-flex flex-row align-items-center mb-3 text-white">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-dark text-white rounded p-1" ></i>
+              <p class="small m-0 pt-0 text-dark"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea.</p>
+            </li>
+            <li class="d-flex flex-row align-items-center mb-3 text-white">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-dark text-white rounded p-1" ></i>
+              <p class="small m-0 pt-0 text-dark"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+                              <!-- EXPLORE END-->
+
+                              <!-- CREATE-->
+    <div class=" container-fluid text-center py-5 bg-indigo text-white scrollspy" id="create">
+      <h2 class="h3 text-capitalize">create</h2>
+      <p class="mb-0 mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti similique, iure dolorum placeat tempora laboriosam ipsa delectus non doloribus distinctio a necessitatibus consectetur, quas voluptatem expedita quod tempore minus atque fugiat labore sit aliquam voluptatibus! Cumque rerum placeat inventore eveniet.</p>
+      <button type="button" class="btn btn-indigo btn-outline-light mt-3">Find Out More</button>
+    </div>
+
+    <div class="container-fluid bg-dark py-3">
+      <div class="row">
+        <div class="col-10 col-lg-5 offset-1 offset-lg-0 order-1">
+          <img src="./images/create-section11.jpg" class="mw-100 rounded-circle" alt="Working on laptop">
+        </div>
+        <div class="col-10 offset-1 col-lg-5 py-5 my-auto text-white">
+          <h2 class="h3 text-capitalize">create your passion</h2>
+          <p class="mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti similique, iure dolorum placeat tempora laboriosam ipsa delectus non doloribus distinctio a necessitatibus consectetur.</p>
+          <ul class="pl-4 mb-2">
+            <li class="d-flex flex-row align-items-center mb-3">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-white text-primary rounded p-1" ></i>
+              <p class="small m-0 pt-0 text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea.</p>
+            </li>
+            <li class="d-flex flex-row align-items-center mb-3">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-white text-primary rounded p-1" ></i>
+              <p class="small m-0 pt-0 text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea.</p>
+            </li>
+          </ul>
+          <p class="bg-"></p>
+        </div>
+      </div>
+    </div>
+                              <!-- CREATE END-->
+  
+                              <!-- SHARE-->
+    <div class=" container-fluid text-center py-5 bg-indigo text-white scrollspy" id="share">
+      <h2 class="h3 text-capitalize">share</h2>
+      <p class="mb-0 mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti similique, iure dolorum placeat tempora laboriosam ipsa delectus non doloribus distinctio a necessitatibus consectetur, quas voluptatem expedita quod tempore minus atque fugiat labore sit aliquam voluptatibus! Cumque rerum placeat inventore eveniet.</p>
+      <button type="button" class="btn btn-indigo btn-outline-light mt-3">Find Out More</button>
+    </div>
+
+    <div class="container-fluid bg-white py-5">
+      <div class="row">
+        <div class="col-10 col-lg-5 offset-1 mb-3">
+          <img src="./images/share-section11.jpg" class="mw-100  rounded-circle" alt="People on beach at sunset">
+        </div>
+        <div class="col-10 offset-1 col-lg-5 offset-lg-0 my-auto text-dark">
+          <h2 class="h3 text-capitalize">share what you create</h2>
+          <p class="mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti similique, iure dolorum placeat tempora laboriosam ipsa delectus non doloribus distinctio a necessitatibus consectetur.</p>
+          <ul class="pl-4 mb-2">
+            <li class="d-flex flex-row align-items-center mb-3">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-dark text-white rounded p-1" ></i>
+              <p class="small m-0 pt-0 text-dark"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea.</p>
+            </li>
+            <li class="d-flex flex-row align-items-center mb-3">
+              <i class="fas fa-check mr-3 mt-0 mb-0 bg-dark text-white rounded p-1" ></i>
+              <p class="small m-0 pt-0 text-dark"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum possimus ratione ea.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+                              <!-- SHARE END-->
+
+                              <!-- FOOTER-->
+    <footer class="container-fluid bg-dark py-4">
+      <div class="row">
+        <div class="col text-center text-white">
+          <h2 class="text-uppercase h3">blogger</h2>
+          <p class="small text-capitalize">copyright &copy 2017</p>
+          <button type="button" class="btn btn-primary btn-outline-prirmary text-capitalize">contact us</button>
+        </div>
+      </div>
+    </footer>
+                              <!-- FOOTER END-->
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </body>
+</html>
